@@ -76,14 +76,13 @@ public class Ejercicio3 {
             for (int i = listaLineas.size() - 1; i >= 0; i--) {
 
                 bw.write(listaLineas.get(i));
-                // System.out.println(listaLineas.get(i));
                 bw.newLine();
             }
             bw.close();
             fw.close();
 
         } catch (IOException e) {
-
+            System.out.println(e.getMessage());
         }
 
     }

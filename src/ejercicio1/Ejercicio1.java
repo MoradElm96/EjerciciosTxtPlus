@@ -44,13 +44,13 @@ public class Ejercicio1 {
 
             }
             System.out.println("Lineas totales = " + lineas);
-
+            br.close();
             fr.close();
 
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(Ejercicio1.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println(ex.getMessage());
         } catch (IOException ex) {
-            Logger.getLogger(Ejercicio1.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println(ex.getMessage());
         }
     }
 

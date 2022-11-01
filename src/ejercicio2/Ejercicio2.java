@@ -60,11 +60,7 @@ public class Ejercicio2 {
 
             br.close();
             fr.close();
-            /* 
-            for (int i = 0; i <= listaLineas.size(); i++) {
-                System.out.println("\n"+listaLineas.get(i).toString());      
-            }
-             */
+            
 
         } catch (FileNotFoundException ex) {
             System.out.println(ex.getMessage());
